@@ -682,6 +682,8 @@ color: #f4f4fd;
     gap: 16px;
     display: flex;
     margin-bottom: 72px;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-footer {
@@ -721,14 +723,12 @@ color: #f4f4fd;
 }
 
 .modal-container-footer {
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-left: auto;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
 }
 
 .footer-form {
