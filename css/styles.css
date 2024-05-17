@@ -669,6 +669,7 @@ color: #f4f4fd;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
+        margin-bottom: 72px;
 }
 
 .social-list {
@@ -680,6 +681,7 @@ color: #f4f4fd;
 .social-links-footer {
     gap: 16px;
     display: flex;
+    margin-bottom: 72px;
 }
 
 .link-footer {
@@ -687,10 +689,10 @@ color: #f4f4fd;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -715,6 +717,7 @@ color: #f4f4fd;
     color: #ffffff;
     margin-bottom: 16px;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .modal-container-footer {
@@ -725,6 +728,7 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-left: auto;
+    margin-bottom: 16px;
 }
 
 .footer-form {
@@ -745,6 +749,7 @@ flex-direction: column;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .email-input::placeholder {
