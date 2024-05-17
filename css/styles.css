@@ -137,8 +137,8 @@ img {
 }
 
 .mob-menu.is-open {
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .mob-menu__exit-btn {
@@ -387,6 +387,10 @@ gap: 40px;
 
 /* ====== OUR BENEFITS ====== */
 
+.section__benfits {
+    padding: 96px 0;
+}
+
 .visually__hidden  {
     position: absolute;
     width: 1px;
@@ -449,20 +453,27 @@ gap: 40px;
 
 .section__team {
     background-color: #F4F4FD;
+    padding: 96px 0;  
 }
 
 .team__list {
-    display: flex;
-    gap: 24px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 72px 28px;
+        width: calc(100% - 24px);
+        margin: 0 auto;
 }
 
 
 .team__item {
 background-color: #ffffff;
-width: calc((100% - 72px) / 4);
+width: 264px;
 border-radius: 0 0 4px 4px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
         
 }
 
