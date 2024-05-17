@@ -30,19 +30,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-.visually__hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 
 /* ====== загальні стилі ====== */
 
@@ -348,25 +335,29 @@ gap: 40px;
 
 
 .section__hero {
-    padding: 188px 0 188px;
+    margin: 0 auto;
+    padding: 72px 0;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)), url(../images/people.jpg);
+     rgba(46, 47, 66, 0.7)), url(../images/mobile/hero-x1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    max-width: 320px;
 }
 
 .hero__title {
         margin: 0 auto;
-        max-width: 496px;
-        font-size: 56px;
-        line-height: 1.07;
+        max-width: 216px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-        margin-bottom: 48px;
+        margin-bottom: 72px;
+
+       
 }
 
 .main__button {
@@ -396,13 +387,28 @@ gap: 40px;
 
 /* ====== OUR BENEFITS ====== */
 
+.visually__hidden  {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .benefits__list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 72px;
 }
 
 .benefits__item {
-    width: calc((100% - 72px) / 4);
+    width: 100%;
 }
 
 .icon__container {
@@ -417,22 +423,25 @@ gap: 40px;
         margin-bottom: 8px;
         padding: 24px 100px;
         height: 112px;
+        display: none;
 } 
 
 .benefits__titel {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        text-align: center;
         }
 
 .benefits__paragraph {
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 150%;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455;      
 }
 
 /* ====== OUR TEAM ====== */
