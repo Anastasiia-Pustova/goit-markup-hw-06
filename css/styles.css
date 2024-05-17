@@ -1,4 +1,4 @@
-/* ====== основні стилі ====== */
+/* ====== MAIN STYLES ====== */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -45,6 +45,7 @@ img {
 
 
 /* ====== загальні стилі ====== */
+
 .section__title {
     font-weight: 700;
     font-size: 36px;
@@ -71,8 +72,7 @@ img {
     
 }
 
-/* ====== HEADER STYLES ====== */
-
+/* ==== 320px ==== */
 
 .page__header {
     border-bottom: 1px solid #e7e9fc;
@@ -119,6 +119,11 @@ img {
 .header__logo .span-logo {
     color: #2e2f42;
 } 
+
+
+
+/* ====== MOBILE BURGER MENU ====== */
+
 
 .header__burger {
     display: block;
@@ -295,10 +300,7 @@ img {
         display: block;
         position: relative;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
-        
-        
-       
+           
            
 }
 .current {
@@ -339,6 +341,8 @@ gap: 40px;
 .adress-link:focus {
  color: #404bbf;
 }
+
+
 
 /* ====== HERO ====== */
 
@@ -517,32 +521,32 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 /* ====== OUR PORTFOLIO ====== */
 
-.portfolio-list {
+.portfolio__list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
 
-.portfolio-item {
+.portfolio__item {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover {
+.portfolio__item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
 
-.container-portfolio {
+.container__portfolio {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
 }
 
-.portfolio-title {
+.portfolio__title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -551,14 +555,14 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         margin-bottom: 8px;  
         
 }
-.portfolio-paragraph {
+.portfolio__paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.hidden-text {
+.hidden__text {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -572,7 +576,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     height: 100%;
 }
 
-.portfolio-portfolio-hidden {
+.portfolio__portfolio-hidden {
     position: relative;
     overflow: hidden;
 }
