@@ -357,13 +357,10 @@ gap: 40px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-        margin-bottom: 72px;
-
-       
+        margin-bottom: 72px;   
 }
 
 .main__button {
-
     min-width: 169px;
     height: 56px;
     display: block;
@@ -988,6 +985,7 @@ border-color: #4D5AE5;
 /* ==== HEADER STYLES 768px ==== */
 
 @media (min-width: 768px) {
+
     .container__header {
         max-width: 768px;
         margin: 0 auto;
@@ -1066,7 +1064,7 @@ border-color: #4D5AE5;
         color: #404bbf;
     }
 
-/* ====== MOBILE BURGER MENU 320px ====== */
+/* ====== MOBILE BURGER MENU 768px ====== */
 
     .header__burger {
         display: none;
@@ -1076,3 +1074,14 @@ border-color: #4D5AE5;
         display: none;
     }
 }
+
+/* ====== HERO 768px ====== */
+
+.section__hero {
+    padding: 112px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/tablet/hero-x1.jpg");
+}
+
+/* ====== OUR BENEFITS 768px ====== */
+
+
