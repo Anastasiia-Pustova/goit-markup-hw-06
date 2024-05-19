@@ -1354,13 +1354,14 @@ border-color: #4D5AE5;
           flex-direction: row;
           flex-wrap: nowrap;
           gap: 24px;
+          width: auto;
       }
 
       .team__paragraph {
           font-weight: 400;
       }
      
-          /* ====== PORTFOLIO 1158px ====== */
+          /* ======  OUR PORTFOLIO 1158px ====== */
 
       .portfolio__paragraph {
           font-weight: 400;
@@ -1379,14 +1380,16 @@ border-color: #4D5AE5;
           transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
        
-        /* ====== FOOTER 1158px ====== */
+          /* ====== FOOTER 1158px ====== */
       
       .footer__container {
           align-items: baseline;
           gap: 0;
-          padding-left: 0;
           text-align: left;
           justify-content: space-between;
+      }
+      .modal__container-footer {
+        gap: 16px;
       }
 
       .footer__logo {
@@ -1397,10 +1400,19 @@ border-color: #4D5AE5;
         text-align: left;
       }
 
-  .footer__paragraph {
+     .footer__paragraph {
       color: #f4f4fd;
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
     }
+         }
+
+
+          /* ====== MODAL  1158px ====== */
+
+     .accept__form-privacy-link {
+        color: #4D5AE5;
+        padding-left: 23px;
+        text-decoration: underline;
          }
