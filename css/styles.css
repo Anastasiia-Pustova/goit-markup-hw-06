@@ -1084,4 +1084,69 @@ border-color: #4D5AE5;
 
 /* ====== OUR BENEFITS 768px ====== */
 
+.benefits__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: center;
+}
 
+.benefits-item {
+    width: calc((100% - 24px) / 2);
+
+}
+
+/* ====== OUR TEAM 768px ====== */
+
+/* .team__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+}
+
+.team__item {
+    max-width: calc((100% - 24px) / 2);
+    margin: 0 0;
+} */
+
+/* ====== OUR PORTFOLIO 768px ====== */
+
+ .portfolio__list {
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 72px 24px;
+ }
+
+ .portfolio__item {
+     max-width: calc((100% - 24px) / 2);
+     margin: 0 0;
+ }
+
+ /* ====== FOOTER 768px ====== */
+
+  .footer__container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 72px 24px;
+      padding-left: 108px;
+      text-align: left;
+  }
+
+  .footer__paragraph {
+      width: 264px;
+  }
+
+  .modal__container-footer {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+  }
+
+/* ====== BACKDROP 768px ====== */
+
+  .modal {
+      width: 408px;
+      min-height: 584px;
+      padding: 72px 24px 24px 24px;
+  }
+  
