@@ -827,10 +827,11 @@ margin-left: 16px;
 .modal__close-btn:hover .icon, 
 .modal__close-btn:focus .icon {
     fill: #ffffff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal__close-btn-icon {
+    fill: #111;
 }
 
 .callback {
